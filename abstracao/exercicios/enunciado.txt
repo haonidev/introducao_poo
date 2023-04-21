@@ -1,0 +1,11 @@
+Aqui estão algumas ideias de exercícios que você pode usar para praticar a abstração em orientação a objetos:
+
+1 - Crie uma classe "Pessoa" que represente uma pessoa em um sistema. Defina propriedades como nome, idade, sexo e endereço, bem como métodos que implementem comportamentos relevantes, como "andar" e "falar". Em seguida, crie subclasses que representem tipos específicos de pessoas, como "Funcionario" ou "Cliente".
+
+2 - Crie uma classe "Carro" que represente um carro em um sistema. Defina propriedades como marca, modelo, ano de fabricação e cor, bem como métodos que implementem comportamentos relevantes, como "ligar" e "desligar". Em seguida, crie subclasses que representem tipos específicos de carros, como "CarroEsportivo" ou "SUV".
+
+3 - Crie uma classe "Animal" que represente um animal em um sistema. Defina propriedades como espécie, nome científico e habitat, bem como métodos que implementem comportamentos relevantes, como "andar" e "comer". Em seguida, crie subclasses que representem tipos específicos de animais, como "Mamífero" ou "Réptil".
+
+4 - Crie uma classe "Produto" que represente um produto em um sistema. Defina propriedades como nome, descrição, preço e estoque, bem como métodos que implementem comportamentos relevantes, como "adicionarAoCarrinho" e "removerDoEstoque". Em seguida, crie subclasses que representem tipos específicos de produtos, como "Livro" ou "Eletrônico".
+
+5 - Crie uma classe "Conta" que represente uma conta bancária em um sistema. Defina propriedades como número da conta, saldo e histórico de transações, bem como métodos que implementem comportamentos relevantes, como "sacar" e "depositar". Em seguida, crie subclasses que representem tipos específicos de contas, como "ContaCorrente" ou "ContaPoupanca".

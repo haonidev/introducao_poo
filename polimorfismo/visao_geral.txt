@@ -1,0 +1,7 @@
+o polimorfismo é um dos conceitos fundamentais da programação orientada a objetos. Ele se refere à capacidade de objetos de diferentes classes responderem de forma diferente a mensagens comuns, ou seja, métodos com o mesmo nome, mas com implementações distintas.
+
+Em outras palavras, o polimorfismo permite que objetos de diferentes classes se comportem de maneiras diferentes, mesmo quando são chamados por um método comum. Isso significa que um objeto pode ser tratado como se fosse outro objeto, desde que ele implemente a mesma interface ou tenha um comportamento compatível.
+
+O polimorfismo é uma ferramenta importante para a reutilização de código, pois permite que um mesmo método possa ser usado por diversas classes, sem a necessidade de reescrevê-lo para cada classe. Ele também aumenta a flexibilidade do sistema, já que novas classes podem ser adicionadas sem afetar a estrutura existente.
+
+Um exemplo comum de polimorfismo é o uso do método "draw" em diferentes tipos de formas (círculos, quadrados, triângulos, etc.). Cada tipo de forma implementa o método "draw" de uma maneira específica, mas todos eles podem ser chamados de forma polimórfica pelo mesmo método.

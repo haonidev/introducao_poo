@@ -1,0 +1,7 @@
+O encapsulamento é um dos principais conceitos da programação orientada a objetos (POO) e refere-se à capacidade de ocultar o estado interno de um objeto e fornecer uma interface pública para interagir com esse objeto.
+
+Em outras palavras, o encapsulamento permite que os dados e comportamentos de um objeto sejam acessados apenas por meio de métodos e propriedades definidos em sua interface pública, ao invés de permitir o acesso direto aos dados por outras partes do programa. Isso protege os dados internos do objeto e ajuda a garantir que eles sejam usados corretamente.
+
+Além disso, o encapsulamento permite que o desenvolvedor altere a implementação interna do objeto sem afetar o restante do programa. Isso é possível porque os usuários do objeto interagem com ele apenas através da sua interface pública, e não precisam saber como os dados são armazenados ou processados internamente.
+
+Em resumo, o encapsulamento é uma técnica de programação poderosa que ajuda a garantir a segurança e a integridade dos dados em um sistema orientado a objetos, ao mesmo tempo em que torna o código mais modular e fácil de manter.

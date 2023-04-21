@@ -1,0 +1,7 @@
+Herança é um conceito importante em linguagens de programação orientadas a objetos que permite criar uma nova classe a partir de uma classe já existente, reutilizando seus atributos e métodos. A classe original é chamada de classe pai ou superclasse, enquanto a nova classe é chamada de classe filha ou subclasse.
+
+A subclasse herda todos os atributos e métodos públicos e protegidos da superclasse, que podem ser usados ​​e modificados pela subclasse. Isso permite que a subclasse tenha um comportamento semelhante ao da superclasse, mas também permite que a subclasse adicione ou substitua comportamentos específicos. Além disso, a subclasse pode ter seus próprios atributos e métodos, que podem ser adicionados à definição da subclasse.
+
+Por exemplo, suponha que haja uma classe chamada "Veículo" que define atributos e métodos comuns para todos os tipos de veículos, como "cor" e "acelerar". Podemos criar uma subclasse chamada "Carro" que herda todos os atributos e métodos de "Veículo", mas também adiciona seus próprios atributos e métodos específicos de carro, como "número de portas" e "abrir porta".
+
+A herança é uma técnica poderosa que ajuda a reduzir a quantidade de código duplicado e a aumentar a reutilização de código em um programa orientado a objetos. No entanto, deve ser usada com cuidado, pois uma hierarquia de classes mal projetada pode tornar o código difícil de entender e manter.

@@ -1,0 +1,11 @@
+Aqui estão cinco exercícios que podem ser usados para praticar o conceito de herança em linguagens orientadas a objetos:
+
+1 - Crie uma classe Animal com um método chamado "fazer_barulho". Em seguida, crie duas subclasses dessa classe, chamadas Cachorro e Gato, que substituem o método "fazer_barulho" para imprimir um som diferente para cada um desses animais.
+
+2 - Crie uma classe Pai com um atributo chamado "sobrenome" e um método chamado "nome_completo". Em seguida, crie uma classe Filho que herda de Pai e adiciona um atributo chamado "nome" e substitui o método "nome_completo" para imprimir o nome completo do filho.
+
+3 - Crie uma classe Veículo com um método chamado "acelerar" que imprime a velocidade atual do veículo. Em seguida, crie uma classe Carro que herda de Veículo e adiciona um atributo chamado "número_de_portas" e um método chamado "abrir_porta" que imprime uma mensagem informando qual porta foi aberta.
+
+4 - Crie uma classe Pessoa com um atributo chamado "idade" e um método chamado "aniversario" que adiciona um ano à idade da pessoa. Em seguida, crie duas subclasses dessa classe, chamadas Homem e Mulher, que adicionam um atributo chamado "sexo" e um método chamado "casar" que imprime uma mensagem informando que essa pessoa casou.
+
+5 - Crie uma classe Shape com dois atributos chamados "largura" e "altura" e um método chamado "area" que retorna a área do shape. Em seguida, crie duas subclasses dessa classe, chamadas Retângulo e Triângulo, que substituem o método "area" para calcular a área do retângulo ou do triângulo, respectivamente. Adicione um método chamado "perímetro" em cada uma das subclasses que calcula o perímetro do retângulo ou do triângulo.

@@ -1,0 +1,18 @@
+Abstração em linguagem orientada a objetos é um conceito que se refere à habilidade de representar um objeto do mundo real de forma simplificada, extraindo apenas as características e comportamentos mais relevantes e ignorando os detalhes menos importantes.
+
+Na prática, isso significa que um programador pode criar uma classe abstrata que define as características gerais de um tipo de objeto, sem se preocupar com as especificidades de cada instância desse objeto. Essa classe abstrata pode então ser usada como um modelo para criar várias instâncias concretas do objeto, cada uma com suas próprias características e comportamentos específicos.
+
+A abstração é importante em programação orientada a objetos porque permite que os programadores criem sistemas mais flexíveis e modulares, que possam ser facilmente modificados e adaptados a novas situações. Além disso, a abstração também torna o código mais fácil de ler, entender e manter ao longo do tempo.
+
+A seguir está enumerado uma lista com suguestões para criar boas abstrações:
+
+    1 - Identifique os objetos relevantes: para começar, é importante identificar quais são os objetos que fazem parte do sistema que você está desenvolvendo. Esses objetos podem ser pessoas, objetos físicos, conceitos abstratos, entre outros.
+
+    2 - Determine as propriedades dos objetos: uma vez que você identificou os objetos, é importante determinar as propriedades que cada um deles possui. Por exemplo, uma pessoa pode ter nome, idade, endereço e outras características relevantes.
+
+    3 - Defina os comportamentos dos objetos: além das propriedades, os objetos também possuem comportamentos que podem ser modelados no sistema. Por exemplo, uma pessoa pode ter a capacidade de andar, falar, trabalhar e outras ações.
+
+    4 - Crie classes e métodos: com base nas informações coletadas nas etapas anteriores, é possível criar classes que representem os objetos do sistema e métodos que implementem seus comportamentos. Essas classes podem ser organizadas em hierarquias de herança, se for necessário.
+
+    5 - Refine a abstração: a abstração é um processo contínuo e, à medida que o sistema evolui, é possível refinar a representação dos objetos. Por exemplo, pode ser necessário adicionar novas propriedades ou comportamentos aos objetos existentes, ou até mesmo criar novos objetos para representar conceitos adicionais.
+    

@@ -1,0 +1,11 @@
+Aqui estão cinco exercícios para praticar o polimorfismo:
+
+1 - Crie uma classe "Animal" com um método "falar". Em seguida, crie duas classes "Cachorro" e "Gato" que herdam da classe "Animal". Implemente o método "falar" em cada uma das classes para que o cachorro e o gato emitam sons diferentes.
+
+2 - Crie uma interface "Veiculo" com um método "acelerar". Em seguida, crie duas classes "Carro" e "Moto" que implementam a interface "Veiculo". Implemente o método "acelerar" em cada uma das classes para que o carro e a moto acelerem de maneiras diferentes.
+
+3 - Crie uma classe abstrata "Figura" com um método abstrato "calcularArea". Em seguida, crie duas classes "Circulo" e "Retangulo" que herdam da classe "Figura". Implemente o método "calcularArea" em cada uma das classes para calcular a área do círculo e do retângulo, respectivamente.
+
+4 - Crie uma classe "Usuario" com um método "login". Em seguida, crie duas classes "UsuarioComum" e "UsuarioAdministrador" que herdam da classe "Usuario". Implemente o método "login" em cada uma das classes para que o usuário comum e o usuário administrador acessem recursos diferentes.
+
+5 - Crie uma classe "Animal" com um método "movimentar". Em seguida, crie duas classes "Peixe" e "Ave" que herdam da classe "Animal". Implemente o método "movimentar" em cada uma das classes para que o peixe nade e a ave voe. Em seguida, crie uma classe "Pinguim" que herda da classe "Ave" e implementa o método "movimentar" para que o pinguim nade em vez de voar.

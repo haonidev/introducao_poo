@@ -1,0 +1,11 @@
+Aqui estão alguns exercícios que podem ajudar a praticar o princípio do encapsulamento em orientação a objetos:
+
+1 - Crie uma classe chamada ContaBancaria que representa uma conta bancária. A classe deve ter atributos privados para o número da conta, o saldo e o titular da conta, além de métodos públicos para depositar, sacar e verificar o saldo da conta.
+
+2 - Crie uma classe chamada Pessoa que representa uma pessoa. A classe deve ter atributos privados para o nome, idade e endereço da pessoa, além de métodos públicos para obter e definir esses atributos.
+
+3 - Crie uma classe chamada CarrinhoDeCompras que representa um carrinho de compras de um cliente em um site de comércio eletrônico. A classe deve ter um atributo privado para os itens no carrinho, além de métodos públicos para adicionar e remover itens, calcular o total da compra e finalizar a compra.
+
+4 - Crie uma classe chamada Animal que representa um animal. A classe deve ter atributos privados para o nome, a espécie e a idade do animal, além de métodos públicos para obter e definir esses atributos. Além disso, a classe deve ter um método público para emitir um som característico do animal.
+
+5 - Crie uma classe chamada Livro que representa um livro. A classe deve ter atributos privados para o título, o autor e o número de páginas do livro, além de métodos públicos para obter e definir esses atributos. Além disso, a classe deve ter um método público para imprimir as informações do livro em um formato legível.

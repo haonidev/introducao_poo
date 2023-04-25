@@ -18,3 +18,15 @@ Aqui estão algumas ideias de exercícios que você pode usar para praticar a ab
 2 - Crie uma classe para emular aquele joguinhos de pegar ursinho que tem nos shoppings.
 
 3 - Crie uma classe que saiba dirigir um carro.
+
+
+fazer o checkout para a main
+fazer atualizar a main fazendo o pull
+fazer o checkout para a branch de vcs
+fazer o rebase da main na branch de vcs
+
+
+git checkout main
+git pull origin main
+git checkout nome-da-branch
+git rebase main

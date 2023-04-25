@@ -30,3 +30,12 @@ git checkout main
 git pull origin main
 git checkout nome-da-branch
 git rebase main
+
+
+
+
+classe concretas e classe abstratas
+propriedade publis e propriedade privadas
+metodos concretos e metodos abstratos
+metodos estaticos e metodos de instancia
+modificador de acesso public, private

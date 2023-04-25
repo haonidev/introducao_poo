@@ -9,3 +9,12 @@ Aqui estão algumas ideias de exercícios que você pode usar para praticar a ab
 4 - Crie uma classe "Produto" que represente um produto em um sistema. Defina propriedades como nome, descrição, preço e estoque, bem como métodos que implementem comportamentos relevantes, como "adicionarAoCarrinho" e "removerDoEstoque". Em seguida, crie subclasses que representem tipos específicos de produtos, como "Livro" ou "Eletrônico".
 
 5 - Crie uma classe "Conta" que represente uma conta bancária em um sistema. Defina propriedades como número da conta, saldo e histórico de transações, bem como métodos que implementem comportamentos relevantes, como "sacar" e "depositar". Em seguida, crie subclasses que representem tipos específicos de contas, como "ContaCorrente" ou "ContaPoupanca".
+
+
+## EXTRAS
+
+1 - Pensando como acontece no mundo real, crie uma classe de pessoa que saiba realizar pagamento de boleto no caixa do banco.
+
+2 - Crie uma classe para emular aquele joguinhos de pegar ursinho que tem nos shoppings.
+
+3 - Crie uma classe que saiba dirigir um carro.

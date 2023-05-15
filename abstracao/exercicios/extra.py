@@ -1,11 +1,4 @@
 
-# 1
-# 1 - Pensando como acontece no mundo real, crie uma classe de pessoa
-# que saiba realizar pagamento de boleto no caixa do banco.
-
-
-
-
 
 # 2
 #2 - Crie uma classe para emular
@@ -183,6 +176,11 @@ def typed_property(name, expected_type):
             if not isinstance(value, expected_type):
                 raise TypeError('{} must be a {}'.format(name, expected_type))
             setattr(self, storage_name, value)
+                        
+        @prop.deleter
+        def prop(self):
+            raise AttributeError('Operação não permitida. Insira outro valor para o atributo')
+        
         return prop
 
 
@@ -240,3 +238,46 @@ motorista1 = Motorista('ford', 'bronco', '2023', 100, 0, 'Mafalda', '7563738')
 motorista2 = Motorista('fiat', 'uno', '2015', 150000, 26, 'Josué', '5728270')
 motorista1.carro_andando()
 motorista2.carro_andando()
+del motorista1.marca
+del motorista1.nome
+
+
+
+# 1
+# 1 - Pensando como acontece no mundo real, crie uma classe de pessoa
+# que saiba realizar pagamento de boleto no caixa do banco.
+
+class ClienteBanco:
+    
+    def __init__(self, nome, conta):
+        self.__nome = nome
+        self.__conta = conta
+        self._saldo = 0
+        print('Bem-vindo(a) {}, seu saldo inicial é {}'.format(self.__nome, self._saldo))
+        
+    def deposito_na_conta(self, valor):
+        self._saldo += valor
+        print('Depósito realizado com sucesso. O saldo total em sua conta é de {}'.format(self._saldo))
+        
+    def saque_da_conta(self, valor):
+        if self._saldo >= valor:
+            self._saldo -= valor
+            print('Você fez um saque no valor de {} e agora tem {}'.format(valor, self._saldo))
+        else:
+            print('Você não tem saldo suficiente para fazer esse saque.')
+    
+    def pagar_boleto(self, valor):
+        if self._saldo >= valor:
+            self._saldo -= valor
+            print('Pagamento no valor de {} realizado. Seu saldo é de {}'.format(valor, self._saldo))
+        else:
+            print('Você não tem saldo suficiente para fazer esse pagamento.')
+            
+            
+arnaldo = ClienteBanco('Arnaldo', '9384600')
+arnaldo.deposito_na_conta(500)    
+arnaldo.saque_da_conta(200)
+arnaldo.pagar_boleto(150)
+    
+
+
